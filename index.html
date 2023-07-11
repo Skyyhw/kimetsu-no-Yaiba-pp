@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Kimetsu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/llogo.png" width="180" height="180" alt="Logo Kimetsu">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="inosuke" data-name="Inosuke" data-descripition="A Respiração da Besta é um estilo criado por Inosuke Hashibira. Ele vivia nas montanas e após precisar lutar por sua sobrevivência, desenvolveu essa técnica de forma autônoma e pessoal.">
+                    <img src="./src/imagens/inosuke.jpg" alt="Inosuke">
+                </li>
+
+                <li class="personagem" id="akaza" data-name="Akaza" data-descripition="Akaza é um Demônio forte, teimoso e impulsivo que gostava de lutar, especialmente contra Caçadores de Demônios fortes, ele desprezava qualquer um que considerasse fraco, mas genuinamente respeitava aqueles que eram fortes aos seus olhos, independentemente de sua raça.">
+                    <img src="./src/imagens/akaza.jpg" alt="Akaza">
+                </li>
+
+                <li class="personagem" id="kokushibo" data-name="Kokushibo" data-descripition="Kokushibo é um demônio extremamente forte e habilidoso, e suas habilidades incluem a capacidade de usar várias técnicas de respiração, uma habilidade que ele desenvolveu ao longo de sua vida como Hashira.">
+                    <img src="./src/imagens/kokushibo.jpg" alt="Kokushibo">
+                </li>
+
+                <li class="personagem" id="Tanjiro" data-name="Tanjiro" data-descripition="Tanjiro é gentil por natureza e foi descrito por outros como tendo olhos muito gentis. Ele exibe uma grande dose de determinação e não desistirá uma vez que tenha uma meta a alcançar; o melhor exemplo disso é sua busca incansável para encontrar uma cura para Nezuko">
+                    <img src="./src/imagens/tanjiro.jpg" alt="Tanjiro">
+                </li>
+
+                <li class="personagem" id="gyutaro" data-name="Gyutaro" data-descripition="Gyutaro é um demônio, sendo membro dos Doze Demônios da Lua, ele ocupa a posição de Lua Superior Seis, apesar de ser o verdadeiro dono da posição ele também a dividi com sua irmã mais nova, Daki.">
+                    <img src="./src/imagens/gyutaro.jpg" alt="Gyutaro">
+                </li>
+
+                <li class="personagem" id="nezuko" data-name="Nezuko" data-descripition="Nezuko Kamado é uma personagem adorável, de personalidade forte e corajosa. Ela é capaz de se comunicar com outros personagens mesmo sem falar, utilizando expressões faciais e corporais, o que a torna muito carismática. Nezuko é uma personagem muito poderosa, capaz de lutar contra demônios muito mais fortes que ela, com sua Arte Demoníaca de Sangue que é muito poderosa">
+                    <img src="./src/imagens/nezuko.jpg" alt="Nezuko">
+                </li>
+                <li class="personagem" id="tomioka" data-name="Tomioka" data-descripition="Giyuu Tomioka é um Caçador de Demônios e o atual Pilar da Água, ele sempre usa uma expressão séria no rosto. Ele tem uma personalidade reservada e um forte senso de justiça, sem tolerância para com aqueles que não conhecem suas próprias limitações e jogam fora suas vidas.">
+                    <img src="./src/imagens/tomioka.jpg" alt="Tomioka">
+                </li>
+
+                <li class="personagem" id="sanemi" data-name="Sanemi"data-descripition="Sanemi é um caçador de sangue quente e teimoso, muitas vezes impulsivo e rápido para atacar, seu comportamento frio e rude é resultado de traumas pela perda de muitas pessoas que amava.">
+                    <img src="./src/imagens/sanemi.jpg" alt="Sanemi">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/inosuke.png" alt="Personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Inosuke</h2>
+                <p class="descricao-personagem" id="descricao-personagem">A Respiração da Besta é um estilo criado por Inosuke Hashibira. Ele vivia nas montanas e após precisar lutar por sua sobrevivência, desenvolveu essa técnica de forma autônoma e pessoal.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
